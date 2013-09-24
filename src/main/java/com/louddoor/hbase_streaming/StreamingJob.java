@@ -140,10 +140,10 @@ public class StreamingJob {
 			
 		}
 
-    public void cleanup(Context context) {
-      context.getCounter(Counters.CLEAN_UP).increment(1);
-      System.err.println(proc.exitValue());
-    }
+//    public void cleanup(Context context) {
+//      context.getCounter(Counters.CLEAN_UP).increment(1);
+//      System.err.println(proc.exitValue());
+//    }
 
 		public void setupProc(Context context) throws IOException{
 			proc = StreamingUtils.buildProcess(context.getConfiguration().get("mapper.command"));
