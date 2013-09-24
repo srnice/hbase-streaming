@@ -11,7 +11,7 @@ hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0
 -D hbase.cluster.distributed=true \
 -D hbase.rootdir=hdfs://ip-10-132-128-216.ap-northeast-1.compute.internal:8020/hbase \
 -files map.py,reduce.py   \
--libjars build/hadoop-hbase-streaming.jar,/usr/lib/hbase/hbase-0.94.6-cdh4.3.0-security.jar \
+-libjars target/hbase-streaming.jar,/usr/lib/hbase/hbase-0.94.6-cdh4.3.0-security.jar \
 -input dummy_input \
 -inputformat org.childtv.hadoop.hbase.mapred.JSONTableInputFormat \
 -output dummy_output \ 
