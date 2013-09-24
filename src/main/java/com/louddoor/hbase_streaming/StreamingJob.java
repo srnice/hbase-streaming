@@ -323,7 +323,7 @@ public class StreamingJob {
 		Options options = setOptions();
 		CommandLineParser parser = new GnuParser();
 		CommandLine line = parser.parse(options, args);		
-		Job job = new Job();
+		Job job = new Job(conf, "TestHBaseStreaming");
 		Scan scan = new Scan();
 		String table = "";
 		String outFile = "";
