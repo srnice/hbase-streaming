@@ -42,7 +42,9 @@ import org.json.JSONObject;
 public class StreamingJob {
 	
 	static final String NAME = "";
-	
+  public enum Counters { ERROR, ROWS_TO_READ, CLEAN_UP, SETUP }
+
+
 	public static class StreamingMapper extends TableMapper<Text, Text>
 	{		
 		private Process proc = null;
@@ -69,7 +71,7 @@ public class StreamingJob {
 				
 				while(readIn.ready() && stop == false)
 				{
-          context.getCounter("read").increment(1);
+          context.getCounter(Counters.ROWS_TO_READ).increment(1);
 					String readLine = readIn.readLine();
 					
 					if (readLine.equals("|next|"))
@@ -94,7 +96,7 @@ public class StreamingJob {
 
 				while(errIn.ready())
 				{
-          context.getCounter("error").increment(1);
+          context.getCounter(Counters.ERROR).increment(1);
 					String errLine = errIn.readLine();
 					
 					if (errLine.equals(""))
@@ -121,7 +123,7 @@ public class StreamingJob {
 		{
 			try {
 				StreamingUtils.downloadFiles(context);
-        context.getCounter("setup").increment(1);
+        context.getCounter(Counters.SETUP).increment(1);
 				setupProc(context);
 			} catch (JSONException e) {
 				e.printStackTrace();
@@ -139,7 +141,7 @@ public class StreamingJob {
 		}
 
     public void cleanup(Context context) {
-      context.getCounter("cleanup").increment(1);
+      context.getCounter(Counters.CLEAN_UP).increment(1);
       System.err.println(proc.exitValue());
     }
 
