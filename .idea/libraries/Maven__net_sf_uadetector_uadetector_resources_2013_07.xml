@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sf.uadetector:uadetector-resources:2013.07">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/uadetector/uadetector-resources/2013.07/uadetector-resources-2013.07.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/uadetector/uadetector-resources/2013.07/uadetector-resources-2013.07-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/uadetector/uadetector-resources/2013.07/uadetector-resources-2013.07-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
