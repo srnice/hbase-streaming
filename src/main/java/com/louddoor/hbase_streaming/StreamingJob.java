@@ -151,9 +151,11 @@ public class StreamingJob {
 			
 			in = proc.getInputStream();
 			err = proc.getErrorStream();
-      System.out.println(readIn.ready());
+      System.out.println(proc.getInputStream());
+
 			readIn = new BufferedReader(new InputStreamReader(in));
 			errIn = new BufferedReader(new InputStreamReader(err));
+      System.out.println(readIn);
 		}
 	}
 	
