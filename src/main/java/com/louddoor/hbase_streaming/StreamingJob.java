@@ -69,7 +69,7 @@ public class StreamingJob {
 				
 				serializer.writeMap(rowKey, values);
         context.getCounter(Counters.ROWS_TO_READ).increment(1);
-
+        System.err.println("value:",  values.getRow().toString());
         while(readIn.ready() && stop == false)
 				{
           //context.getCounter(Counters.ROWS_TO_READ).increment(1);
@@ -151,11 +151,9 @@ public class StreamingJob {
 			
 			in = proc.getInputStream();
 			err = proc.getErrorStream();
-      System.out.println(proc.getInputStream());
 
 			readIn = new BufferedReader(new InputStreamReader(in));
 			errIn = new BufferedReader(new InputStreamReader(err));
-      System.out.println(readIn);
 		}
 	}
 	
