@@ -104,10 +104,10 @@
           <file leaf-file-name="StreamingJob.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="71" column="7" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.41955018">
+                <state line="153" column="41" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.29411766">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#6680#6714#0" expanded="true" />
+                    <element signature="e#6718#6752#0" expanded="true" />
                     <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
                     <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
                   </folding>
@@ -765,10 +765,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="7" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.41955018">
+        <state line="153" column="41" selection-start="4237" selection-end="4237" vertical-scroll-proportion="0.29411766">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6680#6714#0" expanded="true" />
+            <element signature="e#6718#6752#0" expanded="true" />
             <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
             <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
