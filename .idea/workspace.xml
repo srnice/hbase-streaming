@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cc4207-7da2-4710-9db4-0089d2c67ac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.py" afterPath="$PROJECT_DIR$/map.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
     </list>
     <ignored path="hbase-streaming.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,22 +101,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="StreamingJob.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="StreamingJob.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="213" column="47" selection-start="5390" selection-end="5406" vertical-scroll-proportion="0.0">
+                <state line="73" column="12" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.5431472">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#6566#6600#0" expanded="true" />
+                    <element signature="class#StreamingReducer#0;class#StreamingJob#0" expanded="false" />
+                    <element signature="e#6627#6661#0" expanded="true" />
+                    <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
+                    <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="map.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="map.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/map.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="40" selection-start="334" selection-end="334" vertical-scroll-proportion="0.2538071">
+                <state line="13" column="19" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -183,7 +186,7 @@
           <file leaf-file-name="StreamingUtils.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingUtils.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="71" selection-start="926" selection-end="926" vertical-scroll-proportion="0.42301184">
+                <state line="34" column="79" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.5076142">
                   <folding />
                 </state>
               </provider>
@@ -211,8 +214,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/JobTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
         <option value="$PROJECT_DIR$/map.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
       </list>
     </option>
   </component>
@@ -569,7 +572,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="2540" height="1330" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -587,7 +590,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20729752" sideWeight="0.6702479" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15998396" sideWeight="0.6702479" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15998396" sideWeight="0.6702479" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -747,27 +750,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="71" selection-start="926" selection-end="926" vertical-scroll-proportion="0.42301184">
+        <state line="34" column="79" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.5076142">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="47" selection-start="5390" selection-end="5406" vertical-scroll-proportion="0.0">
+        <state line="73" column="12" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.5431472">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6566#6600#0" expanded="true" />
+            <element signature="class#StreamingReducer#0;class#StreamingJob#0" expanded="false" />
+            <element signature="e#6627#6661#0" expanded="true" />
+            <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
+            <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="334" selection-end="334" vertical-scroll-proportion="0.2538071">
-          <folding />
         </state>
       </provider>
     </entry>
