@@ -55,6 +55,8 @@ public class StreamingJob {
 		
 		InputStream in;
 		InputStream err;
+
+    String readLine;
 		
 		private boolean stop = false;
 		
@@ -69,11 +71,12 @@ public class StreamingJob {
 //        System.err.println("value:" +  values.getRow().toString());
 				serializer.writeMap(rowKey, values);
 
-        while(readIn.readLine() != null && stop == false)
+
+        while((readLine = readIn.readLine()) != null && stop == false)
 				{
           context.getCounter(Counters.REAL).increment(1);
 
-					String readLine = readIn.readLine();
+					//String readLine = readIn.readLine();
 
 					if (readLine.equals("|next|"))
 						stop = true;

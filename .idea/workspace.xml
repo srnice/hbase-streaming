@@ -13,7 +13,7 @@
     <file path="/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963910846" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem_once/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963945174" ignored="false" />
-    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380183995049" ignored="false" />
+    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380184303020" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/filter_parsed_log/workflow.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379047956269" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/pom.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380004290587" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916074493" ignored="false" />
@@ -40,7 +40,7 @@
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/table_exporter_statslog/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/script/raw_log_table_partition/partition_itemitemreco.py" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379922476695" ignored="false" />
     <file path="/partition_itemitemreco.py" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379922417175" ignored="false" />
-    <file path="/StreamingJob.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380183985890" ignored="false" />
+    <file path="/StreamingJob.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380185171923" ignored="false" />
     <file path="/map.py" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380085186752" ignored="false" />
     <file path="/FilterInputFromParsedLog.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380073828596" ignored="false" />
     <file path="/TestProcess.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380087221842" ignored="false" />
@@ -129,10 +129,10 @@
           <file leaf-file-name="StreamingJob.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="69" column="10" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.33287102">
+                <state line="74" column="44" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.49930653">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#6671#6705#0" expanded="true" />
+                    <element signature="e#6709#6743#0" expanded="true" />
                     <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
                     <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
                   </folding>
@@ -707,7 +707,11 @@
       <created>1380184001290</created>
       <updated>1380184001290</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bug fix">
+      <created>1380184308601</created>
+      <updated>1380184308601</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -914,10 +918,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="10" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.33287102">
+        <state line="74" column="44" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.49930653">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6671#6705#0" expanded="true" />
+            <element signature="e#6709#6743#0" expanded="true" />
             <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
             <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
