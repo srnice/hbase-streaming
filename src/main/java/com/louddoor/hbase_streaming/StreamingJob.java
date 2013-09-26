@@ -66,20 +66,17 @@ public class StreamingJob {
 		{
 			try {
 				stop = false;
-				
-				serializer.writeMap(rowKey, values);
-        context.getCounter(Counters.ROWS_TO_READ).increment(1);
         System.err.println("value:" +  values.getRow().toString());
-        while(stop == false)
+				serializer.writeMap(rowKey, values);
+
+        while(readIn.ready() && stop == false)
 				{
           context.getCounter(Counters.REAL).increment(1);
 
+					String readLine = readIn.readLine();
 
-          String readLine =  values.getRow().toString();
-//					String readLine = readIn.readLine();
-//
-//					if (readLine.equals("|next|"))
-//						stop = true;
+					if (readLine.equals("|next|"))
+						stop = true;
 					
 					String[] lineParts = readLine.split("\t");
 					String sval = "";
