@@ -71,8 +71,8 @@ public class StreamingJob {
         byte[] v = values.getRow();
 //        JSONObject jsonObject = parseJSONObject(v);
 
-        Bytes.toString(v);
-        System.err.println("value:" +  jsonObject);
+
+        System.err.println("value:" +  Bytes.toString(v));
 
 
         serializer.writeMap(rowKey, values);
