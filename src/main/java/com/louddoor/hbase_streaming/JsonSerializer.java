@@ -39,7 +39,7 @@ public class JsonSerializer extends Serializer {
     final String s = "user1_1\t{'details':{'page':'/'}}";
 
     outputStreamWriter.write(s);
-    outputStreamWriter.flush();
+    //outputStreamWriter.flush();
     System.err.println("[sora] " + s);
 
 //		jg.writeRaw(Bytes.toString(rowKey.get()) + "\t");

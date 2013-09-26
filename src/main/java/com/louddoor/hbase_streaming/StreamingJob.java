@@ -77,7 +77,7 @@ public class StreamingJob {
 
         serializer.writeMap(rowKey, values);
         System.err.println("[soratest]");
-        System.err.println("[sora]" + readIn.readLine());
+        System.err.println("[sora]" + readIn.ready());
 
         while((readLine = readIn.readLine()) != null && stop == false)
 				{
