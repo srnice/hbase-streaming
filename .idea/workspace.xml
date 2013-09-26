@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cc4207-7da2-4710-9db4-0089d2c67ac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/TestProcess.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hbase-streaming.iws" />
@@ -14,7 +13,7 @@
     <file path="/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963910846" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem_once/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963945174" ignored="false" />
-    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380010708748" ignored="false" />
+    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380161375513" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/filter_parsed_log/workflow.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379047956269" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/pom.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380004290587" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916074493" ignored="false" />
@@ -127,7 +126,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="StreamingJob.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="StreamingJob.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="74" column="42" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.33287102">
@@ -148,15 +147,6 @@
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestProcess.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/TestProcess.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="40" selection-start="441" selection-end="456" vertical-scroll-proportion="0.0">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -230,10 +220,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="StreamingUtils.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="StreamingUtils.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingUtils.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="98" selection-start="990" selection-end="990" vertical-scroll-proportion="0.6753247">
+                <state line="34" column="71" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.77922076">
                   <folding />
                 </state>
               </provider>
@@ -432,28 +422,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,6 +672,11 @@
       <created>1378895276447</created>
       <updated>1378895276447</updated>
     </task>
+    <task id="LOCAL-00001" summary="testing">
+      <created>1380161380905</created>
+      <updated>1380161380905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -774,7 +747,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -787,6 +760,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -875,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="441" selection-end="456" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/Serializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="23" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
@@ -898,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="98" selection-start="990" selection-end="990" vertical-scroll-proportion="0.6753247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="42" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.33287102">
@@ -914,6 +874,13 @@
             <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
             <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="71" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.77922076">
+          <folding />
         </state>
       </provider>
     </entry>
