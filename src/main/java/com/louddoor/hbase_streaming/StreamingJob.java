@@ -68,8 +68,10 @@ public class StreamingJob {
 		{
 			try {
 				stop = false;
-//        System.err.println("value:" +  values.getRow().toString());
-				serializer.writeMap(rowKey, values);
+        System.err.println("value:" +  values.getRow().toString());
+
+
+        serializer.writeMap(rowKey, values);
 
 
         while((readLine = readIn.readLine()) != null && stop == false)
@@ -133,7 +135,7 @@ public class StreamingJob {
 				e.printStackTrace();
 			}
 			
-			String ser = context.getConfiguration().get("streaming.serializer", "bytearr");
+			String ser = context.getConfiguration().get("streaming.serializer", "json");
 			
 			if (ser.equals("json"))
 			{
@@ -251,7 +253,7 @@ public class StreamingJob {
       readIn = new BufferedReader(new InputStreamReader(in));
 			errIn = new BufferedReader(new InputStreamReader(err));
 			
-			String ser = context.getConfiguration().get("streaming.serializer", "bytearr");
+			String ser = context.getConfiguration().get("streaming.serializer", "json");
 			
 			if (ser.equals("json"))
 			{
