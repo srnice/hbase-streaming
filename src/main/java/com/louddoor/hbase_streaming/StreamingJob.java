@@ -133,7 +133,7 @@ public class StreamingJob {
 				e.printStackTrace();
 			}
 			
-			String ser = context.getConfiguration().get("streaming.serializer", "json");
+			String ser = context.getConfiguration().get("streaming.serializer");
 			
 			if (ser.equals("json"))
 			{
