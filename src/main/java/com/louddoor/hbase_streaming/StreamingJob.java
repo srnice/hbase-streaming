@@ -80,6 +80,7 @@ public class StreamingJob {
 
         while((readLine = readIn.readLine()) != null && stop == false)
 				{
+
           context.getCounter(Counters.REAL).increment(1);
 
 					//String readLine = readIn.readLine();
