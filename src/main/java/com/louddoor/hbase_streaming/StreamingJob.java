@@ -37,6 +37,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 public class StreamingJob {
 	
