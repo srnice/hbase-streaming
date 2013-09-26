@@ -133,7 +133,7 @@ public class StreamingJob {
 				e.printStackTrace();
 			}
 			
-			String ser = context.getConfiguration().get("streaming.serializer");
+			String ser = context.getConfiguration().get("streaming.serializer", "");
 			
 			if (ser.equals("json"))
 			{
@@ -251,7 +251,7 @@ public class StreamingJob {
       readIn = new BufferedReader(new InputStreamReader(in));
 			errIn = new BufferedReader(new InputStreamReader(err));
 			
-			String ser = context.getConfiguration().get("streaming.serializer");
+			String ser = context.getConfiguration().get("streaming.serializer", "");
 			
 			if (ser.equals("json"))
 			{
