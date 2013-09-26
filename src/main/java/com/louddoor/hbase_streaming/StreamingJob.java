@@ -77,6 +77,7 @@ public class StreamingJob {
 
         serializer.writeMap(rowKey, values);
 
+        System.err.println("[sora]" + readIn.readLine());
 
         while((readLine = readIn.readLine()) != null && stop == false)
 				{
@@ -103,9 +104,10 @@ public class StreamingJob {
 
 					context.write(cKey, cVal);
 				}
+        System.err.println("[sora] hi" );
 
 
-				while(errIn.ready())
+        while(errIn.ready())
 				{
           context.getCounter(Counters.ERROR).increment(1);
 					String errLine = errIn.readLine();
