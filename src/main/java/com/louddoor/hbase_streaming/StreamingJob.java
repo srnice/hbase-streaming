@@ -36,7 +36,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 public class StreamingJob {
@@ -69,7 +69,7 @@ public class StreamingJob {
 			try {
 				stop = false;
         byte[] v = values.getRow();
-        JSONObject jsonObject = parseJSONObject(value);
+        JSONObject jsonObject = parseJSONObject(v);
 
         System.err.println("value:" +  jsonObject);
 
