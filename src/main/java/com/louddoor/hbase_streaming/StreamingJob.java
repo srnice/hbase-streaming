@@ -66,7 +66,7 @@ public class StreamingJob {
 		{
 			try {
 				stop = false;
-        System.err.println("value:" +  values.getRow().toString());
+//        System.err.println("value:" +  values.getRow().toString());
 				serializer.writeMap(rowKey, values);
 
         while(readIn.readLine() != null && stop == false)

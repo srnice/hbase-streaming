@@ -13,7 +13,7 @@
     <file path="/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963910846" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem_once/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963945174" ignored="false" />
-    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380183938530" ignored="false" />
+    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380183995049" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/filter_parsed_log/workflow.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379047956269" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/pom.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380004290587" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916074493" ignored="false" />
@@ -129,10 +129,10 @@
           <file leaf-file-name="StreamingJob.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="71" column="39" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.3883495">
+                <state line="69" column="10" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.33287102">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#6669#6703#0" expanded="true" />
+                    <element signature="e#6671#6705#0" expanded="true" />
                     <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
                     <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
                   </folding>
@@ -703,7 +703,11 @@
       <created>1380183946239</created>
       <updated>1380183946239</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bug fix">
+      <created>1380184001290</created>
+      <updated>1380184001290</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -910,10 +914,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="39" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.3883495">
+        <state line="69" column="10" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.33287102">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6669#6703#0" expanded="true" />
+            <element signature="e#6671#6705#0" expanded="true" />
             <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
             <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
