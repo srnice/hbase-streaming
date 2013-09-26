@@ -13,7 +13,7 @@
     <file path="/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963910846" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem_once/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963945174" ignored="false" />
-    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380189134225" ignored="false" />
+    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380190720226" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/filter_parsed_log/workflow.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379047956269" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/pom.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380004290587" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916074493" ignored="false" />
@@ -50,6 +50,7 @@
     <file path="/Main.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380176953527" ignored="false" />
     <file path="/fragment.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380088850841" ignored="false" />
     <file path="/ByteSerializer.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380091565514" ignored="false" />
+    <file path="/JsonSerializer.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380192781424" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,7 @@
           <file leaf-file-name="StreamingJob.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="24.653847">
+                <state line="77" column="23" selection-start="2342" selection-end="2350" vertical-scroll-proportion="-9.961538">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#6890#6924#0" expanded="true" />
@@ -143,7 +144,7 @@
           <file leaf-file-name="JsonSerializer.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="45" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.5061082">
+                <state line="32" column="3" selection-start="932" selection-end="932" vertical-scroll-proportion="0.2495637">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -163,19 +164,17 @@
           <file leaf-file-name="mapper.go" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/go/mapper.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="16" selection-start="660" selection-end="663" vertical-scroll-proportion="0.0">
+                <state line="34" column="12" selection-start="563" selection-end="567" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ByteSerializer.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java">
+          <file leaf-file-name="mapper.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/php/mapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="24" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="23" column="5" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -183,7 +182,7 @@
           <file leaf-file-name="Serializer.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/Serializer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="1" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+                <state line="29" column="23" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -234,11 +233,22 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sdf" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="sdf" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/sdf">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="914" column="58" selection-start="28478" selection-end="28478" vertical-scroll-proportion="0.77159965">
+                <state line="893" column="71" selection-start="28021" selection-end="28021" vertical-scroll-proportion="0.0">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ByteSerializer.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="21" selection-start="630" selection-end="634" vertical-scroll-proportion="0.37639007">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -478,6 +488,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbase-streaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hbase-streaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -772,7 +800,11 @@
       <created>1380189139254</created>
       <updated>1380189139254</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bug fix">
+      <created>1380190723901</created>
+      <updated>1380190723901</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -796,7 +828,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20729752" sideWeight="0.6702479" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1779661" sideWeight="0.6702479" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1779661" sideWeight="0.6702479" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -869,15 +901,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="30" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
@@ -937,31 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/go/mapper.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="16" selection-start="660" selection-end="663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="1" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="3" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
@@ -972,9 +970,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/sdf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="893" column="71" selection-start="28021" selection-end="28021" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/php/mapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="21" selection-start="630" selection-end="634" vertical-scroll-proportion="0.37639007">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="24.653847">
+        <state line="77" column="23" selection-start="2342" selection-end="2350" vertical-scroll-proportion="-9.961538">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6890#6924#0" expanded="true" />
@@ -984,16 +1005,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/sdf">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/Serializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="914" column="58" selection-start="28478" selection-end="28478" vertical-scroll-proportion="0.77159965">
+        <state line="29" column="23" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/go/mapper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="563" selection-end="567" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="45" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.5061082">
+        <state line="32" column="3" selection-start="932" selection-end="932" vertical-scroll-proportion="0.2495637">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
