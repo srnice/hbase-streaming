@@ -133,12 +133,12 @@ public class StreamingJob {
 				e.printStackTrace();
 			}
 			
-			String ser = context.getConfiguration().get("streaming.serializer", "");
+			String ser = context.getConfiguration().get("streaming.serializer", "bytearr");
 			
 			if (ser.equals("json"))
 			{
 				serializer = new JsonSerializer(proc.getOutputStream());
-			} else {
+			} else if(ser.equals("bytearr")) {
 				serializer = new ByteSerializer(proc.getOutputStream());
 			}
 			
@@ -251,12 +251,12 @@ public class StreamingJob {
       readIn = new BufferedReader(new InputStreamReader(in));
 			errIn = new BufferedReader(new InputStreamReader(err));
 			
-			String ser = context.getConfiguration().get("streaming.serializer", "");
+			String ser = context.getConfiguration().get("streaming.serializer", "bytearr");
 			
 			if (ser.equals("json"))
 			{
 				serializer = new JsonSerializer(proc.getOutputStream());
-			} else {
+			} else if(ser.equals("bytearr")) {
 				serializer = new ByteSerializer(proc.getOutputStream());
 			}
 		}
