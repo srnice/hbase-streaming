@@ -74,11 +74,8 @@ public class StreamingJob {
 				{
           context.getCounter(Counters.REAL).increment(1);
 
-          byte[] colfam = Bytes.toByte("detail");
-          byte[] colqual = Bytes.toByte("page");
-          byte[] v = values.getValue(colfam, colqual);
 
-          String readLine = v.toString();
+          String readLine =  values.getRow().toString();
 //					String readLine = readIn.readLine();
 //
 //					if (readLine.equals("|next|"))
