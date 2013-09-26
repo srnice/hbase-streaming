@@ -42,7 +42,7 @@ import org.json.JSONObject;
 public class StreamingJob {
 	
 	static final String NAME = "";
-  public enum Counters { ERROR, ROWS_TO_READ, CLEAN_UP, SETUP }
+  public enum Counters { ERROR, ROWS_TO_READ, REAL, SETUP }
 
 
 	public static class StreamingMapper extends TableMapper<Text, Text>
@@ -70,9 +70,9 @@ public class StreamingJob {
 				serializer.writeMap(rowKey, values);
         context.getCounter(Counters.ROWS_TO_READ).increment(1);
         System.err.println("value:" +  values.getRow().toString());
-        while(readIn.ready() && stop == false)
+        while(stop == false)
 				{
-          //context.getCounter(Counters.ROWS_TO_READ).increment(1);
+          context.getCounter(Counters.REAL).increment(1);
 					String readLine = readIn.readLine();
 					
 					if (readLine.equals("|next|"))

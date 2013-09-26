@@ -29,9 +29,7 @@ public class ByteSerializer extends Serializer {
 		 * keyLength(int) + valueLength(int) + rowLength(short) + rowKey(bytes) + familyLength(byte) + family(bytes) + qualifier(bytes) + timestamp(long) + type(byte) + value(bytes)
 		 * 
 		 */
-		//in.write(this.dout);
-    in.write("key");
-    in.write("value");
+		in.write(this.dout);
 		dout.write(newLine);
 	}
 
