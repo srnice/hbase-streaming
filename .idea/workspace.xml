@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cc4207-7da2-4710-9db4-0089d2c67ac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hbase-streaming.iws" />
@@ -13,7 +13,7 @@
     <file path="/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963910846" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem_once/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963945174" ignored="false" />
-    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380189079157" ignored="false" />
+    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380189134225" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/filter_parsed_log/workflow.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379047956269" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/pom.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380004290587" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916074493" ignored="false" />
@@ -126,10 +126,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="StreamingJob.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="StreamingJob.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="73" column="0" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.7491071">
+                <state line="81" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="24.653847">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#6890#6924#0" expanded="true" />
@@ -140,10 +140,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="JsonSerializer.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="JsonSerializer.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="10" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
+                <state line="36" column="45" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.5061082">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -237,7 +237,7 @@
           <file leaf-file-name="sdf" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/sdf">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="917" column="57" selection-start="28570" selection-end="28570" vertical-scroll-proportion="0.82292557">
+                <state line="914" column="58" selection-start="28478" selection-end="28478" vertical-scroll-proportion="0.77159965">
                   <folding />
                 </state>
               </provider>
@@ -271,6 +271,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/sdf" />
         <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java" />
       </list>
     </option>
   </component>
@@ -767,7 +768,11 @@
       <created>1380189085012</created>
       <updated>1380189085012</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="bug fix">
+      <created>1380189139254</created>
+      <updated>1380189139254</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -967,30 +972,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="10" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
+        <state line="81" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="24.653847">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6890#6924#0" expanded="true" />
+            <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
+            <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/sdf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="917" column="57" selection-start="28570" selection-end="28570" vertical-scroll-proportion="0.82292557">
+        <state line="914" column="58" selection-start="28478" selection-end="28478" vertical-scroll-proportion="0.77159965">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2261" selection-end="2261" vertical-scroll-proportion="0.7491071">
+        <state line="36" column="45" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.5061082">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6890#6924#0" expanded="true" />
-            <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
-            <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
         </state>
       </provider>

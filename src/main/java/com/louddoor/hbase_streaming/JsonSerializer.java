@@ -33,8 +33,8 @@ public class JsonSerializer extends Serializer {
 	public void writeMap(ImmutableBytesWritable rowKey, Result in) throws Exception {
 		Iterator<Entry<byte[], NavigableMap<byte[], byte[]>>> i = in.getNoVersionMap().entrySet().iterator();
 
-		jg.writeRaw(Bytes.toString(rowKey.get()) + "\t");
-
+	//	jg.writeRaw(Bytes.toString(rowKey.get()) + "\t");
+    jg.writeRaw(Bytes.toString(rowKey.get()) );
 		jg.writeStartObject();
 
 		while(i.hasNext())
