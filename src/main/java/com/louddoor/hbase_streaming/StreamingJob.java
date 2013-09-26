@@ -73,10 +73,14 @@ public class StreamingJob {
         while(stop == false)
 				{
           context.getCounter(Counters.REAL).increment(1);
-					String readLine = readIn.readLine();
-					
-					if (readLine.equals("|next|"))
-						stop = true;
+
+          byte[] v = values.getValue("detail", "page");
+
+          String readLine = v.toString();
+//					String readLine = readIn.readLine();
+//
+//					if (readLine.equals("|next|"))
+//						stop = true;
 					
 					String[] lineParts = readLine.split("\t");
 					String sval = "";
