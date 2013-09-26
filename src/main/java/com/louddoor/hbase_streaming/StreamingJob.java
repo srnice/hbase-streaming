@@ -77,11 +77,11 @@ public class StreamingJob {
 
         serializer.writeMap(rowKey, values);
         System.err.println("[soratest]");
-        System.err.println("[sora]" + readIn.ready());
 
         while((readLine = readIn.readLine()) != null && stop == false)
 				{
 
+          System.err.println("[sora]");
           context.getCounter(Counters.REAL).increment(1);
 
 					//String readLine = readIn.readLine();
@@ -109,6 +109,7 @@ public class StreamingJob {
 
         while(errIn.ready())
 				{
+          System.err.println("soso");
           context.getCounter(Counters.ERROR).increment(1);
 					String errLine = errIn.readLine();
 					
@@ -124,8 +125,11 @@ public class StreamingJob {
 						System.err.println(errLine);
 					}
 				}
-				
-			} catch (Exception e) {
+        System.err.println("[sora] hello" );
+
+
+
+      } catch (Exception e) {
 				e.printStackTrace();
 				throw new InterruptedException(e.getMessage());
 			}

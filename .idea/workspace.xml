@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cc4207-7da2-4710-9db4-0089d2c67ac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -14,7 +13,7 @@
     <file path="/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963910846" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/clickratio-itemitem_once/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1378963945174" ignored="false" />
-    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380193467794" ignored="false" />
+    <file path="/Dummy.txt" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380194014037" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/filter_parsed_log/workflow.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379047956269" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/pom.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380004290587" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916074493" ignored="false" />
@@ -41,7 +40,7 @@
     <file path="$PROJECT_DIR$/../coruscant/src/main/apps/table_exporter_statslog/build.xml" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379916465668" ignored="false" />
     <file path="$PROJECT_DIR$/../coruscant/src/main/script/raw_log_table_partition/partition_itemitemreco.py" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379922476695" ignored="false" />
     <file path="/partition_itemitemreco.py" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1379922417175" ignored="false" />
-    <file path="/StreamingJob.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380193731738" ignored="false" />
+    <file path="/StreamingJob.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380194980709" ignored="false" />
     <file path="/map.py" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380085186752" ignored="false" />
     <file path="/FilterInputFromParsedLog.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380189032088" ignored="false" />
     <file path="/TestProcess.java" changelist="39cc4207-7da2-4710-9db4-0089d2c67ac8" time="1380087221842" ignored="false" />
@@ -128,13 +127,13 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="StreamingJob.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="StreamingJob.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="52" column="12" selection-start="1819" selection-end="1819" vertical-scroll-proportion="-2.3076923">
+                <state line="127" column="40" selection-start="3543" selection-end="3543" vertical-scroll-proportion="0.6785714">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#7033#7067#0" expanded="true" />
+                    <element signature="e#7102#7136#0" expanded="true" />
                     <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
                     <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
                   </folding>
@@ -142,10 +141,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="JsonSerializer.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="JsonSerializer.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="6" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.2495637">
+                <state line="35" column="25" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -246,7 +245,7 @@
           <file leaf-file-name="ByteSerializer.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="53" selection-start="768" selection-end="768" vertical-scroll-proportion="0.46193328">
+                <state line="21" column="65" selection-start="596" selection-end="596" vertical-scroll-proportion="0.35928145">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -281,8 +280,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/Serializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/louddoor/hbase_streaming/sdf" />
-        <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java" />
       </list>
     </option>
   </component>
@@ -333,8 +332,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="22" />
+    <option name="x" value="496" />
+    <option name="y" value="29" />
     <option name="width" value="2288" />
     <option name="height" value="1330" />
   </component>
@@ -384,148 +383,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="hbase-streaming" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase_streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase_streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbase-streaming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="go" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -821,11 +678,15 @@
       <created>1380193473018</created>
       <updated>1380193473018</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="bug fix">
+      <created>1380194022633</created>
+      <updated>1380194022633</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="22" width="2288" height="1330" extended-state="0" />
+    <frame x="496" y="29" width="2288" height="1330" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1017,21 +878,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="12" selection-start="1819" selection-end="1819" vertical-scroll-proportion="-2.3076923">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7033#7067#0" expanded="true" />
-            <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
-            <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/ByteSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="53" selection-start="768" selection-end="768" vertical-scroll-proportion="0.46193328">
+        <state line="21" column="65" selection-start="596" selection-end="596" vertical-scroll-proportion="0.35928145">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1040,9 +889,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/JsonSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="6" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.2495637">
+        <state line="35" column="25" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/louddoor/hbase_streaming/StreamingJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="40" selection-start="3543" selection-end="3543" vertical-scroll-proportion="0.6785714">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7102#7136#0" expanded="true" />
+            <element signature="method#setOptions#0;class#StreamingJob#0" expanded="false" />
+            <element signature="method#readFullFile#0;class#StreamingJob#0" expanded="false" />
           </folding>
         </state>
       </provider>
