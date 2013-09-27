@@ -10,6 +10,9 @@ import traceback
 
 if __name__ == "__main__":
 #  for line in iter(sys.stdin.readline, ''):
+  print "sora hihi"
+  print "hello"
+
   for line in sys.stdin: 
     try:
       line = line.rstrip()

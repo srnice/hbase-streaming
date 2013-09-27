@@ -42,8 +42,8 @@ public class JsonSerializer extends Serializer {
     outputStreamWriter.write(s);
     //outputStreamWriter.flush();
     System.err.println("[sora] " + s);
-    in.write(s);
-   outputStreamWriter.close();
+
+//   outputStreamWriter.close();
 //		jg.writeRaw(Bytes.toString(rowKey.get()) + "\t");
 ////    jg.writeRaw(Bytes.toString(rowKey.get()) );
 //		jg.writeStartObject();
